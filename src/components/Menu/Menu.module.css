@@ -1,0 +1,60 @@
+.container {
+  background-color: var(--cl2);
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.logoC {
+  padding: 0.5rem;
+  height: 4rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  color: var(--cl3);
+}
+
+.link {
+  padding: 0.75rem 1rem;
+  color: #fff;
+  display: flex;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  background-color: #fff;
+  color: var(--cl2);
+}
+
+.selected {
+  background-color: #fff;
+  color: var(--cl2);
+}
+
+.logoutC {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.logout {
+  border-radius: 0.25rem;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+
+  display: flex;
+  gap: 0.5rem;
+}
+
+.logout:hover {
+  background-color: var(--cl4);
+}

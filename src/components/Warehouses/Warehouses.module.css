@@ -1,0 +1,28 @@
+.container {
+  padding: 1rem;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.title_search {
+  margin-bottom: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.search {
+    border-radius: .25rem ;
+    padding: .25rem;
+    font-size: 1.1rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(500px, 100%), 1fr));
+  gap: 1rem;
+  justify-content: center;
+  align-items: stretch;
+}
